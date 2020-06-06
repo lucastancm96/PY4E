@@ -42,7 +42,6 @@ while True:
         print(data)
         continue
 
-    #print(json.dumps(js, indent=4)) # Adjust indent to make it easier to read the retrieved json data
     place_id = js['results'][0]['place_id']
     print('Place id:', place_id)
 
