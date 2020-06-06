@@ -1,7 +1,6 @@
 import urllib.request, urllib.parse, urllib.error
 import ssl
 import json
-import twurl
 
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
